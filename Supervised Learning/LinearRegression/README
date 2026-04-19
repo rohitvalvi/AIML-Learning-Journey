@@ -1,1 +1,59 @@
 
+Linear Regression Projects – Insurance Bill & House Price Prediction
+
+This repository contains two practical machine learning projects:
+
+🏥 Hospital Insurance Bill / Prediction System
+🏠 House Price Prediction System
+
+These projects demonstrate the use of machine learning techniques for solving real-world problems in healthcare and real estate domains.
+
+ Project Structure
+├── hospital.ipynb        # Hospital-related ML project
+├── HousePrice.ipynb      # House price prediction model
+└── README.md             # Documentation
+
+Features
+Data preprocessing and cleaning
+Feature selection and transformation
+Model training and evaluation
+Real-world dataset handling
+Visualization of results
+ 
+Hospital Bill Project
+ Description:
+
+This project focuses on analyzing hospital-related data and building a model for prediction or decision-making (e.g., Insurance Bill prediction, patient analysis, or treatment recommendation depending on your implementation).
+
+ Key Steps:
+Data preprocessing
+Handling missing values
+Feature encoding
+Model training
+Prediction & evaluation
+Possible Use Cases:
+Bill prediction
+Patient risk analysis
+Hospital resource planning
+
+House Price Prediction
+📌 Description:
+
+This project uses machine learning to predict house prices based on features like location, size, number of rooms, etc.
+
+ Key Steps:
+Data cleaning and preprocessing
+Feature scaling
+Model training (e.g., Linear Regression / ANN / etc.)
+Model evaluation
+ Evaluation Metrics:
+Mean Absolute Error (MAE)
+Mean Squared Error (MSE)
+R² Score
+
+Technologies Used
+Python 🐍
+NumPy
+Pandas
+Matplotlib / Seaborn
+Scikit-learn (or mention if you used ANN/TensorFlow)
