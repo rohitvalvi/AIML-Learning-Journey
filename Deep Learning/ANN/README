@@ -1,1 +1,53 @@
 
+Artificial Neural Networks (ANN) – Regression & Classification
+
+This repository contains implementations of Artificial Neural Networks (ANN) for both Regression and Classification problems using Python.
+
+It demonstrates how neural networks can be applied to solve different types of machine learning tasks with practical examples.
+
+ Project Structure
+├── ANN_Regression.ipynb       # ANN model for regression problem
+├── ANN_classification.ipynb   # ANN model for classification problem
+└── README.md                  # Project documentation
+
+Features
+Implementation of ANN from scratch using libraries
+Covers both:
+🔹 Regression tasks (predict continuous values)
+🔹 Classification tasks (predict categories)
+Data preprocessing and normalization
+Model training and evaluation
+Visualization of results
+
+ Technologies Used
+Python 
+NumPy
+Pandas
+Matplotlib / Seaborn
+TensorFlow / Keras (or specify what you used)
+ ANN for Regression
+Description:
+
+This notebook demonstrates how ANN can be used to predict continuous numerical values.
+
+Steps Covered:
+Data preprocessing
+Feature scaling
+Model building using ANN
+Training the model
+Evaluation using metrics like:
+Mean Squared Error (MSE)
+Root Mean Squared Error (RMSE)
+ ANN for Classification
+Description:
+
+This notebook demonstrates classification using ANN.
+
+Steps Covered:
+Data preprocessing
+Encoding categorical variables
+Model building
+Training and validation
+Evaluation using:
+Accuracy
+Confusion Matrix
