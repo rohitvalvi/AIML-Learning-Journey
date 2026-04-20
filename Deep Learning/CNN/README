@@ -1,1 +1,78 @@
+ CIFAR-10 Image Classification with CNN (PyTorch)
+
+This project demonstrates an end-to-end deep learning pipeline for image classification using a Convolutional Neural Network (CNN) implemented in PyTorch. The model is trained to classify images into 10 different categories from the CIFAR-10 dataset.
+
+
+##  Overview
+
+This notebook covers the complete workflow of a deep learning project:
+
+* **Data Preprocessing**
+  Normalization and conversion of images into tensors.
+* **Dataset Loading**
+  Automatic downloading and batching of the CIFAR-10 dataset.
+* **Model Architecture**
+  Building a custom CNN with multiple convolutional layers.
+* **Training**
+  Optimizing the model using the Adam optimizer over multiple epochs.
+* **Evaluation**
+  Measuring model performance on unseen test data.
+
+
+
+##  Dataset
+
+The CIFAR-10 dataset consists of 60,000 color images (32×32 pixels) across 10 classes:
+
+
+
+##  Model Architecture
+
+The CNN model is divided into two main parts:
+
+###  Convolutional Block (Feature Extraction)
+
+* **Layer 1:**
+  3 input channels → 32 filters, 3×3 kernel, ReLU, 2×2 MaxPooling
+
+* **Layer 2:**
+  32 → 64 filters, 3×3 kernel, ReLU, 2×2 MaxPooling
+
+* **Layer 3:**
+  64 → 128 filters, 3×3 kernel, ReLU, 2×2 MaxPooling
+
+
+
+###  Classifier Block
+
+* **Flatten Layer:**
+  Converts feature map (128 × 4 × 4) into a 1D vector
+
+* **Fully Connected Layer 1:**
+  2048 → 256 neurons, ReLU
+
+* **Output Layer:**
+  256 → 10 neurons (one for each class)
+
+---
+
+##  Training Configuration
+
+* **Loss Function:** CrossEntropyLoss
+* **Optimizer:** Adam
+* **Batch Size:** 64
+* **Epochs:** 10
+
+---
+
+##  Results
+
+*  **Final Training Loss:** ~0.1062
+*  **Test Accuracy:** ~75.17%
+
+
+##  Requirements
+
+torch
+torchvision
 
